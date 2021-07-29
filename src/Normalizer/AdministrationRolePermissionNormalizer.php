@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Normalizer;
+namespace Titi60\SyliusRbacPlugin\Normalizer;
 
-use Odiseo\SyliusRbacPlugin\Access\Model\OperationType;
+use Titi60\SyliusRbacPlugin\Access\Model\OperationType;
 
 final class AdministrationRolePermissionNormalizer implements AdministrationRolePermissionNormalizerInterface
 {

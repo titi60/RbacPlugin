@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Action;
+namespace Titi60\SyliusRbacPlugin\Action;
 
-use Odiseo\SyliusRbacPlugin\Provider\AdminPermissionsProviderInterface;
+use Titi60\SyliusRbacPlugin\Provider\AdminPermissionsProviderInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Twig\Environment;
 

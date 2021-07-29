@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Odiseo\SyliusRbacPlugin\Application\Entity;
+namespace Tests\Titi60\SyliusRbacPlugin\Application\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleAwareTrait;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleAwareTrait;
 use Sylius\Component\Core\Model\AdminUser as BaseAdminUser;
 
 /**

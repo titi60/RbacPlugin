@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Action;
+namespace Titi60\SyliusRbacPlugin\Action;
 
-use Odiseo\SyliusRbacPlugin\Message\UpdateAdministrationRole;
-use Odiseo\SyliusRbacPlugin\Normalizer\AdministrationRolePermissionNormalizerInterface;
+use Titi60\SyliusRbacPlugin\Message\UpdateAdministrationRole;
+use Titi60\SyliusRbacPlugin\Normalizer\AdministrationRolePermissionNormalizerInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

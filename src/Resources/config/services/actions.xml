@@ -4,30 +4,30 @@
     <services>
         <defaults autowire="false" autoconfigure="false" public="true" />
 
-        <service id="Odiseo\SyliusRbacPlugin\Action\CreateAdministrationRoleViewAction">
-            <argument type="service" id="Odiseo\SyliusRbacPlugin\Provider\AdminPermissionsProvider" />
+        <service id="Titi60\SyliusRbacPlugin\Action\CreateAdministrationRoleViewAction">
+            <argument type="service" id="Titi60\SyliusRbacPlugin\Provider\AdminPermissionsProvider" />
             <argument type="service" id="twig" />
         </service>
 
-        <service id="Odiseo\SyliusRbacPlugin\Action\CreateAdministrationRoleAction">
+        <service id="Titi60\SyliusRbacPlugin\Action\CreateAdministrationRoleAction">
             <argument type="service" id="messenger.default_bus" />
-            <argument type="service" id="Odiseo\SyliusRbacPlugin\Normalizer\AdministrationRolePermissionNormalizer" />
+            <argument type="service" id="Titi60\SyliusRbacPlugin\Normalizer\AdministrationRolePermissionNormalizer" />
             <argument type="service" id="session" />
             <argument type="service" id="router" />
         </service>
 
-        <service id="Odiseo\SyliusRbacPlugin\Action\UpdateAdministrationRoleViewAction">
-            <argument type="service" id="Odiseo\SyliusRbacPlugin\Provider\AdminPermissionsProvider" />
+        <service id="Titi60\SyliusRbacPlugin\Action\UpdateAdministrationRoleViewAction">
+            <argument type="service" id="Titi60\SyliusRbacPlugin\Provider\AdminPermissionsProvider" />
             <argument type="service" id="sylius_rbac.repository.administration_role" />
-            <argument type="service" id="Odiseo\SyliusRbacPlugin\Extractor\PermissionDataExtractor"/>
+            <argument type="service" id="Titi60\SyliusRbacPlugin\Extractor\PermissionDataExtractor"/>
             <argument type="service" id="twig" />
             <argument type="service" id="router" />
             <argument type="service" id="session" />
         </service>
 
-        <service id="Odiseo\SyliusRbacPlugin\Action\UpdateAdministrationRoleAction">
+        <service id="Titi60\SyliusRbacPlugin\Action\UpdateAdministrationRoleAction">
             <argument type="service" id="messenger.default_bus" />
-            <argument type="service" id="Odiseo\SyliusRbacPlugin\Normalizer\AdministrationRolePermissionNormalizer" />
+            <argument type="service" id="Titi60\SyliusRbacPlugin\Normalizer\AdministrationRolePermissionNormalizer" />
             <argument type="service" id="session" />
             <argument type="service" id="router" />
         </service>

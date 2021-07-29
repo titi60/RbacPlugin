@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Access\Exception;
+namespace Titi60\SyliusRbacPlugin\Access\Exception;
 
 final class InsecureRequestException extends \Exception
 {

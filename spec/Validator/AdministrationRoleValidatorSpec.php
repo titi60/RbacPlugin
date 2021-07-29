@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace spec\Odiseo\SyliusRbacPlugin\Validator;
+namespace spec\Titi60\SyliusRbacPlugin\Validator;
 
 use PhpSpec\ObjectBehavior;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
-use Odiseo\SyliusRbacPlugin\Validator\AdministrationRoleValidatorInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Validator\AdministrationRoleValidatorInterface;
 use Symfony\Component\Validator\ConstraintViolationInterface;
 use Symfony\Component\Validator\ConstraintViolationListInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;

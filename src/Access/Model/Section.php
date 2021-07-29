@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Access\Model;
+namespace Titi60\SyliusRbacPlugin\Access\Model;
 
 final class Section
 {

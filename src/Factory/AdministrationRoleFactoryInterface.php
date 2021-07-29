@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Factory;
+namespace Titi60\SyliusRbacPlugin\Factory;
 
 use Sylius\Component\Resource\Factory\TranslatableFactoryInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
 
 interface AdministrationRoleFactoryInterface extends TranslatableFactoryInterface
 {

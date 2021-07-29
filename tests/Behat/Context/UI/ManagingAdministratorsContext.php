@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Tests\Odiseo\SyliusRbacPlugin\Behat\Context\UI;
+namespace Tests\Titi60\SyliusRbacPlugin\Behat\Context\UI;
 
 use Behat\Behat\Context\Context;
 use Sylius\Behat\Page\Admin\Administrator\UpdatePageInterface;
 use Sylius\Component\User\Repository\UserRepositoryInterface;
-use Tests\Odiseo\SyliusRbacPlugin\Behat\Element\AdministrationRolesElementInterface;
-use Tests\Odiseo\SyliusRbacPlugin\Behat\Page\Ui\AdminUserIndexPageInterface;
+use Tests\Titi60\SyliusRbacPlugin\Behat\Element\AdministrationRolesElementInterface;
+use Tests\Titi60\SyliusRbacPlugin\Behat\Page\Ui\AdminUserIndexPageInterface;
 use Webmozart\Assert\Assert;
 
 final class ManagingAdministratorsContext implements Context

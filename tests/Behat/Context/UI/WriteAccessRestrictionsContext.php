@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Odiseo\SyliusRbacPlugin\Behat\Context\UI;
+namespace Tests\Titi60\SyliusRbacPlugin\Behat\Context\UI;
 
 use Behat\Behat\Context\Context;
-use Tests\Odiseo\SyliusRbacPlugin\Behat\Service\ModifyingAvailabilityChecker;
+use Tests\Titi60\SyliusRbacPlugin\Behat\Service\ModifyingAvailabilityChecker;
 use Webmozart\Assert\Assert;
 
 final class WriteAccessRestrictionsContext implements Context

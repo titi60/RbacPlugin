@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Action;
+namespace Titi60\SyliusRbacPlugin\Action;
 
 use Sylius\Component\Resource\Repository\RepositoryInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
-use Odiseo\SyliusRbacPlugin\Extractor\PermissionDataExtractorInterface;
-use Odiseo\SyliusRbacPlugin\Provider\AdminPermissionsProviderInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Extractor\PermissionDataExtractorInterface;
+use Titi60\SyliusRbacPlugin\Provider\AdminPermissionsProviderInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

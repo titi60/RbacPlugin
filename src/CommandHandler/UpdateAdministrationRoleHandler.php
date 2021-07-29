@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\CommandHandler;
+namespace Titi60\SyliusRbacPlugin\CommandHandler;
 
 use Doctrine\Persistence\ObjectManager;
-use Odiseo\SyliusRbacPlugin\Message\UpdateAdministrationRole;
+use Titi60\SyliusRbacPlugin\Message\UpdateAdministrationRole;
 use Sylius\Component\Resource\Repository\RepositoryInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
-use Odiseo\SyliusRbacPlugin\Factory\AdministrationRoleFactoryInterface;
-use Odiseo\SyliusRbacPlugin\Model\PermissionInterface;
-use Odiseo\SyliusRbacPlugin\Validator\AdministrationRoleValidatorInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Factory\AdministrationRoleFactoryInterface;
+use Titi60\SyliusRbacPlugin\Model\PermissionInterface;
+use Titi60\SyliusRbacPlugin\Validator\AdministrationRoleValidatorInterface;
 use Symfony\Component\Messenger\Handler\MessageHandlerInterface;
 
 final class UpdateAdministrationRoleHandler implements MessageHandlerInterface

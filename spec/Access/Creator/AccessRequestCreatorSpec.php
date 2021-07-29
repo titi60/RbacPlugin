@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace spec\Odiseo\SyliusRbacPlugin\Access\Creator;
+namespace spec\Titi60\SyliusRbacPlugin\Access\Creator;
 
 use PhpSpec\ObjectBehavior;
-use Odiseo\SyliusRbacPlugin\Access\Creator\AccessRequestCreatorInterface;
-use Odiseo\SyliusRbacPlugin\Access\Exception\UnresolvedRouteNameException;
-use Odiseo\SyliusRbacPlugin\Access\Model\AccessRequest;
-use Odiseo\SyliusRbacPlugin\Access\Model\OperationType;
-use Odiseo\SyliusRbacPlugin\Access\Model\Section;
+use Titi60\SyliusRbacPlugin\Access\Creator\AccessRequestCreatorInterface;
+use Titi60\SyliusRbacPlugin\Access\Exception\UnresolvedRouteNameException;
+use Titi60\SyliusRbacPlugin\Access\Model\AccessRequest;
+use Titi60\SyliusRbacPlugin\Access\Model\OperationType;
+use Titi60\SyliusRbacPlugin\Access\Model\Section;
 
 final class AccessRequestCreatorSpec extends ObjectBehavior
 {

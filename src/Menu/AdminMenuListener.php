@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Menu;
+namespace Titi60\SyliusRbacPlugin\Menu;
 
 use Sylius\Bundle\UiBundle\Menu\Event\MenuBuilderEvent;
 

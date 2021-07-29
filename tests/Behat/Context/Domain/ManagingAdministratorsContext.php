@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Tests\Odiseo\SyliusRbacPlugin\Behat\Context\Domain;
+namespace Tests\Titi60\SyliusRbacPlugin\Behat\Context\Domain;
 
 use Behat\Behat\Context\Context;
 use Sylius\Behat\Service\SharedStorageInterface;
 use Sylius\Bundle\CoreBundle\Fixture\Factory\ExampleFactoryInterface;
 use Sylius\Component\Core\Model\AdminUserInterface;
 use Sylius\Component\User\Repository\UserRepositoryInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
 use Webmozart\Assert\Assert;
 
 final class ManagingAdministratorsContext implements Context

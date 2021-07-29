@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Cli;
+namespace Titi60\SyliusRbacPlugin\Cli;
 
 use Doctrine\Persistence\ObjectManager;
 use Sylius\Component\Resource\Repository\RepositoryInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace spec\Odiseo\SyliusRbacPlugin\Access\Menu;
+namespace spec\Titi60\SyliusRbacPlugin\Access\Menu;
 
 use Knp\Menu\ItemInterface;
 use PhpSpec\ObjectBehavior;
@@ -10,9 +10,9 @@ use Prophecy\Argument;
 use Sylius\Bundle\UiBundle\Menu\Event\MenuBuilderEvent;
 use Sylius\Component\Core\Model\AdminUserInterface;
 use Sylius\Component\Core\Model\ShopUserInterface;
-use Odiseo\SyliusRbacPlugin\Access\Checker\AdministratorAccessCheckerInterface;
-use Odiseo\SyliusRbacPlugin\Access\Model\AccessRequest;
-use Odiseo\SyliusRbacPlugin\Access\Model\Section;
+use Titi60\SyliusRbacPlugin\Access\Checker\AdministratorAccessCheckerInterface;
+use Titi60\SyliusRbacPlugin\Access\Model\AccessRequest;
+use Titi60\SyliusRbacPlugin\Access\Model\Section;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 

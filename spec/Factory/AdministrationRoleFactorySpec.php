@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace spec\Odiseo\SyliusRbacPlugin\Factory;
+namespace spec\Titi60\SyliusRbacPlugin\Factory;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use Sylius\Component\Resource\Factory\FactoryInterface;
-use Odiseo\SyliusRbacPlugin\Access\Model\OperationType;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
-use Odiseo\SyliusRbacPlugin\Factory\AdministrationRoleFactoryInterface;
-use Odiseo\SyliusRbacPlugin\Model\Permission;
-use Odiseo\SyliusRbacPlugin\Model\PermissionInterface;
+use Titi60\SyliusRbacPlugin\Access\Model\OperationType;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Factory\AdministrationRoleFactoryInterface;
+use Titi60\SyliusRbacPlugin\Model\Permission;
+use Titi60\SyliusRbacPlugin\Model\PermissionInterface;
 
 final class AdministrationRoleFactorySpec extends ObjectBehavior
 {

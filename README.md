@@ -47,7 +47,7 @@ Write permission access means also updating and deleting.
     ```php
     return [
        // ...
-       Odiseo\SyliusRbacPlugin\OdiseoSyliusRbacPlugin::class => ['all' => true],
+       Titi60\SyliusRbacPlugin\OdiseoSyliusRbacPlugin::class => ['all' => true],
     ];
     ```
 
@@ -57,8 +57,8 @@ a) Use AdministrationRoleAwareTrait and implement AdministrationRoleAwareInterfa
 
 ```php
 use Doctrine\ORM\Mapping as ORM;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleAwareTrait;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleAwareTrait;
 use Sylius\Component\Core\Model\AdminUser as BaseAdminUser;
 
 /**
@@ -117,19 +117,19 @@ sylius_user:
     ```
 
     Which consists of:
-    
+
     * `sylius:fixtures:load`
-    
-        Loading fixture with a default "No sections access" role. 
-        
-        The command runs in non-interactive mode so it will NOT purge your database. 
+
+        Loading fixture with a default "No sections access" role.
+
+        The command runs in non-interactive mode so it will NOT purge your database.
         However, once you run it again it will throw an exception because of duplicate entry constraint violation.
-        
-        If you want to install RBAC plugin again on the same environment you will have to remove all roles manually 
+
+        If you want to install RBAC plugin again on the same environment you will have to remove all roles manually
         via administration panel or run all commands except `sylius:fixtures:load` separately.
-        
+
     * `sylius-rbac:normalize-administrators`
-    
+
         Assigns role created in a previous step to all already existent administrators.
 
     * `sylius-rbac:grant-access <roleName> <adminSections>`
@@ -140,26 +140,26 @@ sylius_user:
         * customerManagement
         * marketingManagement
         * salesManagement
-        
+
         #### Beware!
-        
+
         There are two ways of defining root administrator's email address:
-        
+
         * Provide it as a parameter in your configuration file (you will not be asked to enter it again via CLI during
         plugin's installation)
-        
+
         ```yaml
         parameters:
             root_administrator_email: example@example.com
-        ``` 
-        
+        ```
+
         * Provide it via CLI
-    
+
         e.g. `bin/console sylius-rbac:grant-access administrator configuration catalogManagement`
-    
+
         `In order to permit access to admin panel sections, please provide administrator's email address: sylius@example.com`
-        
-        By default, installation command creates *Configurator* role with access granted to all sections.  
+
+        By default, installation command creates *Configurator* role with access granted to all sections.
 
 #### Beware!
 
@@ -175,7 +175,7 @@ command in order to provide an email address as an input parameter.
 doctrine:
     orm:
         resolve_target_entities:
-            Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface: FullyQualifiedClassName
+            Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface: FullyQualifiedClassName
 ```
 
 ## Sections configuration
@@ -254,9 +254,9 @@ placed in the `HardcodedRouteNameChecker` class, which is the following:
             strpos($routeName, 'sylius_rbac_admin') !== false
         ;
     }
-``` 
+```
 
-Let's assume that you added a new route to your application and you want it to be handled by the RBAC plugin. 
+Let's assume that you added a new route to your application and you want it to be handled by the RBAC plugin.
 Once you did so, you should override the checker placed above and customize it in the following manner:
 
 ```php

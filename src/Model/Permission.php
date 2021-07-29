@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Model;
+namespace Titi60\SyliusRbacPlugin\Model;
 
-use Odiseo\SyliusRbacPlugin\Access\Model\OperationType;
+use Titi60\SyliusRbacPlugin\Access\Model\OperationType;
 use Webmozart\Assert\Assert;
 
 final class Permission implements PermissionInterface

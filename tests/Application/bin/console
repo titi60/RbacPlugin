@@ -4,7 +4,7 @@
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Input\ArgvInput;
 use Symfony\Component\Debug\Debug;
-use Tests\Odiseo\SyliusRbacPlugin\Application\Kernel;
+use Tests\Titi60\SyliusRbacPlugin\Application\Kernel;
 
 set_time_limit(0);
 

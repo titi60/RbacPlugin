@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Access\Checker;
+namespace Titi60\SyliusRbacPlugin\Access\Checker;
 
 use Sylius\Component\Core\Model\AdminUserInterface;
-use Odiseo\SyliusRbacPlugin\Access\Model\AccessRequest;
+use Titi60\SyliusRbacPlugin\Access\Model\AccessRequest;
 
 interface AdministratorAccessCheckerInterface
 {

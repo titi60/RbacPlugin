@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace spec\Odiseo\SyliusRbacPlugin\Command;
+namespace spec\Titi60\SyliusRbacPlugin\Command;
 
 use PhpSpec\ObjectBehavior;
 

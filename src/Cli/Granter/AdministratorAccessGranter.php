@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Cli\Granter;
+namespace Titi60\SyliusRbacPlugin\Cli\Granter;
 
 use Doctrine\Persistence\ObjectManager;
 use Sylius\Component\Resource\Repository\RepositoryInterface;
-use Odiseo\SyliusRbacPlugin\Access\Model\OperationType;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRole;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
-use Odiseo\SyliusRbacPlugin\Model\Permission;
+use Titi60\SyliusRbacPlugin\Access\Model\OperationType;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRole;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Model\Permission;
 
 final class AdministratorAccessGranter implements AdministratorAccessGranterInterface
 {

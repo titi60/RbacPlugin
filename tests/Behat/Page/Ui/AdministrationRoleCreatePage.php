@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Odiseo\SyliusRbacPlugin\Behat\Page\Ui;
+namespace Tests\Titi60\SyliusRbacPlugin\Behat\Page\Ui;
 
 use Sylius\Behat\Page\Admin\Crud\CreatePage;
 

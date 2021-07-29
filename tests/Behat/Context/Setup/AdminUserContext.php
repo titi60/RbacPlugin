@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Odiseo\SyliusRbacPlugin\Behat\Context\Setup;
+namespace Tests\Titi60\SyliusRbacPlugin\Behat\Context\Setup;
 
 use Behat\Behat\Context\Context;
 use Doctrine\Persistence\ObjectManager;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleAwareInterface;
 
 final class AdminUserContext implements Context
 {

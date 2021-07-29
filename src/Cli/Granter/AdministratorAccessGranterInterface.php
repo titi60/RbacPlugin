@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Cli\Granter;
+namespace Titi60\SyliusRbacPlugin\Cli\Granter;
 
 interface AdministratorAccessGranterInterface
 {

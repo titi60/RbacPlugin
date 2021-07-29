@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace spec\Odiseo\SyliusRbacPlugin\CommandHandler;
+namespace spec\Titi60\SyliusRbacPlugin\CommandHandler;
 
 use Doctrine\Persistence\ObjectManager;
 use PhpSpec\ObjectBehavior;
-use Odiseo\SyliusRbacPlugin\Access\Model\OperationType;
-use Odiseo\SyliusRbacPlugin\Command\CreateAdministrationRole;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
-use Odiseo\SyliusRbacPlugin\Factory\AdministrationRoleFactoryInterface;
-use Odiseo\SyliusRbacPlugin\Model\Permission;
-use Odiseo\SyliusRbacPlugin\Model\PermissionInterface;
-use Odiseo\SyliusRbacPlugin\Validator\AdministrationRoleValidatorInterface;
+use Titi60\SyliusRbacPlugin\Access\Model\OperationType;
+use Titi60\SyliusRbacPlugin\Command\CreateAdministrationRole;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Factory\AdministrationRoleFactoryInterface;
+use Titi60\SyliusRbacPlugin\Model\Permission;
+use Titi60\SyliusRbacPlugin\Model\PermissionInterface;
+use Titi60\SyliusRbacPlugin\Validator\AdministrationRoleValidatorInterface;
 
 final class CreateAdministrationRoleHandlerSpec extends ObjectBehavior
 {

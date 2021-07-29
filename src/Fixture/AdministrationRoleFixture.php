@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Fixture;
+namespace Titi60\SyliusRbacPlugin\Fixture;
 
 use Doctrine\Persistence\ObjectManager;
 use Sylius\Bundle\FixturesBundle\Fixture\AbstractFixture;
 use Sylius\Bundle\FixturesBundle\Fixture\FixtureInterface;
 use Sylius\Component\Resource\Factory\FactoryInterface;
-use Odiseo\SyliusRbacPlugin\Access\Model\OperationType;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
-use Odiseo\SyliusRbacPlugin\Model\Permission;
+use Titi60\SyliusRbacPlugin\Access\Model\OperationType;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Model\Permission;
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 
 final class AdministrationRoleFixture extends AbstractFixture implements FixtureInterface

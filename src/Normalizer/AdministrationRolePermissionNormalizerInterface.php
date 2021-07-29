@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Normalizer;
+namespace Titi60\SyliusRbacPlugin\Normalizer;
 
 interface AdministrationRolePermissionNormalizerInterface
 {

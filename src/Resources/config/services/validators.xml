@@ -4,7 +4,7 @@
     <services>
         <defaults autowire="false" autoconfigure="false" public="true" />
 
-        <service id="Odiseo\SyliusRbacPlugin\Validator\AdministrationRoleValidator" >
+        <service id="Titi60\SyliusRbacPlugin\Validator\AdministrationRoleValidator" >
             <argument type="service" id="validator"/>
         </service>
     </services>

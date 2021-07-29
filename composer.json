@@ -49,8 +49,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Odiseo\\SyliusRbacPlugin\\": "src/",
-            "Tests\\Odiseo\\SyliusRbacPlugin\\": "tests/"
+            "Titi60\\SyliusRbacPlugin\\": "src/",
+            "Tests\\Titi60\\SyliusRbacPlugin\\": "tests/"
         }
     },
     "autoload-dev": {

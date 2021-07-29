@@ -4,21 +4,21 @@
     <services>
         <defaults autowire="false" autoconfigure="false" public="true" />
 
-        <service id="Odiseo\SyliusRbacPlugin\CommandHandler\CreateAdministrationRoleHandler">
+        <service id="Titi60\SyliusRbacPlugin\CommandHandler\CreateAdministrationRoleHandler">
             <argument type="service" id="doctrine.orm.entity_manager"/>
             <argument type="service" id="sylius_rbac.custom_factory.administration_role"/>
-            <argument type="service" id="Odiseo\SyliusRbacPlugin\Validator\AdministrationRoleValidator" />
+            <argument type="service" id="Titi60\SyliusRbacPlugin\Validator\AdministrationRoleValidator" />
             <argument type="string">sylius_rbac_admin_administration_role_create</argument>
-            <tag name="messenger.message_handler" handles="Odiseo\SyliusRbacPlugin\Message\CreateAdministrationRole"/>
+            <tag name="messenger.message_handler" handles="Titi60\SyliusRbacPlugin\Message\CreateAdministrationRole"/>
         </service>
 
-        <service id="Odiseo\SyliusRbacPlugin\CommandHandler\UpdateAdministrationRoleHandler">
+        <service id="Titi60\SyliusRbacPlugin\CommandHandler\UpdateAdministrationRoleHandler">
             <argument type="service" id="doctrine.orm.entity_manager"/>
             <argument type="service" id="sylius_rbac.custom_factory.administration_role"/>
             <argument type="service" id="sylius_rbac.repository.administration_role"/>
-            <argument type="service" id="Odiseo\SyliusRbacPlugin\Validator\AdministrationRoleValidator"/>
+            <argument type="service" id="Titi60\SyliusRbacPlugin\Validator\AdministrationRoleValidator"/>
             <argument type="string">sylius_rbac_admin_administration_role_update</argument>
-            <tag name="messenger.message_handler" handles="Odiseo\SyliusRbacPlugin\Message\UpdateAdministrationRole"/>
+            <tag name="messenger.message_handler" handles="Titi60\SyliusRbacPlugin\Message\UpdateAdministrationRole"/>
         </service>
     </services>
 </container>

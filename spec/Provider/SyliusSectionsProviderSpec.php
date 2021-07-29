@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\Odiseo\SyliusRbacPlugin\Provider;
+namespace spec\Titi60\SyliusRbacPlugin\Provider;
 
 use PhpSpec\ObjectBehavior;
-use Odiseo\SyliusRbacPlugin\Provider\SyliusSectionsProviderInterface;
+use Titi60\SyliusRbacPlugin\Provider\SyliusSectionsProviderInterface;
 
 final class SyliusSectionsProviderSpec extends ObjectBehavior
 {

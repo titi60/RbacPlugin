@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Entity;
+namespace Titi60\SyliusRbacPlugin\Entity;
 
-use Odiseo\SyliusRbacPlugin\Model\Permission;
-use Odiseo\SyliusRbacPlugin\Model\PermissionInterface;
+use Titi60\SyliusRbacPlugin\Model\Permission;
+use Titi60\SyliusRbacPlugin\Model\PermissionInterface;
 
 /** @final */
 class AdministrationRole implements AdministrationRoleInterface

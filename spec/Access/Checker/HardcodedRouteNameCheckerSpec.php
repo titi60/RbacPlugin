@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\Odiseo\SyliusRbacPlugin\Access\Checker;
+namespace spec\Titi60\SyliusRbacPlugin\Access\Checker;
 
 use PhpSpec\ObjectBehavior;
-use Odiseo\SyliusRbacPlugin\Access\Checker\RouteNameCheckerInterface;
+use Titi60\SyliusRbacPlugin\Access\Checker\RouteNameCheckerInterface;
 
 final class HardcodedRouteNameCheckerSpec extends ObjectBehavior
 {

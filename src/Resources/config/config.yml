@@ -16,8 +16,8 @@ sylius_resource:
     resources:
         sylius_rbac.administration_role:
             classes:
-                model: Odiseo\SyliusRbacPlugin\Entity\AdministrationRole
-                interface: Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface
+                model: Titi60\SyliusRbacPlugin\Entity\AdministrationRole
+                interface: Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface
 
 sylius_grid:
     grids:
@@ -25,7 +25,7 @@ sylius_grid:
             driver:
                 name: doctrine/orm
                 options:
-                    class: Odiseo\SyliusRbacPlugin\Entity\AdministrationRole
+                    class: Titi60\SyliusRbacPlugin\Entity\AdministrationRole
             fields:
                 name:
                     type: string

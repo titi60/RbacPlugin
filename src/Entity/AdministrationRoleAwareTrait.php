@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Entity;
+namespace Titi60\SyliusRbacPlugin\Entity;
 
 use Doctrine\ORM\Mapping\JoinColumn;
 use Doctrine\ORM\Mapping\ManyToOne;
@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping\ManyToOne;
 trait AdministrationRoleAwareTrait
 {
     /**
-     * @ManyToOne(targetEntity="Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface")
+     * @ManyToOne(targetEntity="Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface")
      * @JoinColumn(name="administration_role_id", referencedColumnName="id")
      *
      * @var AdministrationRoleInterface|null

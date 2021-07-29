@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Message;
+namespace Titi60\SyliusRbacPlugin\Message;
 
 final class UpdateAdministrationRole
 {

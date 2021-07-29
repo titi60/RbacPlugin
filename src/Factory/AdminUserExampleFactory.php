@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Odiseo\SyliusRbacPlugin\Factory;
+namespace Titi60\SyliusRbacPlugin\Factory;
 
 use Sylius\Bundle\CoreBundle\Fixture\Factory\AdminUserExampleFactory as BaseAdminUserExampleFactory;
 use Sylius\Bundle\CoreBundle\Fixture\Factory\ExampleFactoryInterface;
@@ -11,7 +11,7 @@ use Sylius\Component\Core\Model\AdminUserInterface;
 use Sylius\Component\Core\Uploader\ImageUploaderInterface;
 use Sylius\Component\Resource\Factory\FactoryInterface;
 use Sylius\Component\Resource\Repository\RepositoryInterface;
-use Odiseo\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
+use Titi60\SyliusRbacPlugin\Entity\AdministrationRoleInterface;
 use Symfony\Component\Config\FileLocatorInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
